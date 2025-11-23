@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-Latest 
+    runs-on: ubuntu-latest 
 
     steps:
     # Checkout the repository
@@ -19,7 +19,7 @@ jobs:
       - name: set up Node jobs 
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 20
       
       # install dependencies
       - name : install dependencies
